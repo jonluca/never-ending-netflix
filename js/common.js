@@ -19,30 +19,49 @@ function loadOptions(callback) {
     chrome.storage.sync.set({
       'options': options
     }, _ => {
-      callback(options);
+      if (callback) {
+        callback(options);
+      }
     });
   });
-
 }
 
 // Send options to all tabs and extension pages
-function sendOptions(options) {
-  let request = {
+async function sendOptions(options) {
+  const request = {
     action: 'optionsChanged',
     'options': options
   };
 
   // Send options to all tabs
-  chrome.windows.getAll(null, function (windows) {
-    for (let i = 0; i < windows.length; i++) {
-      chrome.tabs.getAllInWindow(windows[i].id, function (tabs) {
-        for (let j = 0; j < tabs.length; j++) {
-          chrome.tabs.sendMessage(tabs[j].id, request);
+  try {
+    const tabs = await chrome.tabs.query({});
+    for (const tab of tabs) {
+      // Errors are expected for tabs that cannot be scripted, such as chrome:// pages.
+      chrome.tabs.sendMessage(tab.id, request).catch(error => {
+        if (error.message.includes("Could not establish connection") || error.message.includes("Receiving end does not exist")) {
+          // This is an expected error when a tab doesn't have the content script injected.
+          // We can safely ignore it.
+        } else {
+          console.warn(`NEN: Error sending message to tab ${tab.id}:`, error);
         }
       });
     }
-  });
+  } catch (error) {
+    console.error("NEN: Error querying tabs", error);
+  }
 
-  // Send options to other extension pages
-  chrome.runtime.sendMessage(request);
+  // Send options to other extension pages (e.g., popup)
+  try {
+    // This can also error if the popup isn't open, which is fine.
+    chrome.runtime.sendMessage(request).catch(error => {
+        if (error.message.includes("Could not establish connection") || error.message.includes("Receiving end does not exist")) {
+          // Expected if no other extension pages are open.
+        } else {
+          console.warn("NEN: Error sending message to runtime:", error);
+        }
+    });
+  } catch (error) {
+    console.error("NEN: Error sending message to runtime", error);
+  }
 }
