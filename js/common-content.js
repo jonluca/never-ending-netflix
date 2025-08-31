@@ -25,28 +25,6 @@ function loadOptions(callback) {
 
 }
 
-// Send options to all tabs and extension pages
-function sendOptions(options) {
-    let request = {
-    action: 'optionsChanged',
-    'options': options
-    };
-
-    // Send options to all tabs
-    chrome.windows.getAll(null, function (windows) {
-    for (let i = 0; i < windows.length; i++) {
-        chrome.tabs.getAllInWindow(windows[i].id, function (tabs) {
-        for (let j = 0; j < tabs.length; j++) {
-            chrome.tabs.sendMessage(tabs[j].id, request);
-        }
-        });
-    }
-    });
-
-    // Send options to other extension pages
-    chrome.runtime.sendMessage(request);
-}
-
 function injectScript(file_path, tag) {
     var node = document.getElementsByTagName(tag)[0];
     var script = document.createElement('script');

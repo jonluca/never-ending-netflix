@@ -158,11 +158,10 @@ function changeOption(elem) {
 
 }
 
+// Send options to background script to save and distribute
 function saveOptions() {
-    console.log(options);
-    chrome.storage.sync.set({
+    chrome.runtime.sendMessage({
+        action: 'saveOptions',
         'options': options
-    }, () => {
-        sendOptions(options);
     });
 }
