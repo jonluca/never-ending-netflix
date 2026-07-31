@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Netflix ohne Ende"
+  },
+  "manifest_description": {
+    "message": "Nächste Folge automatisch abspielen, Titelsequenzen überspringen, überspringen \"Siehst du noch?\" Eingabeaufforderungen und suchen Sie in über 3000 Genres!"
+  },
+  "skipTitleSequences": {
+    "message": "Titelsequenzen überspringen"
+  },
+  "autoPlayNext": {
+    "message": "Nächste Episode automatisch abspielen"
+  },
+  "alwaysWatchCredits": {
+    "message": "Immer Credits ansehen"
+  },
+  "hideAutoPlayVid": {
+    "message": "Automatische Wiedergabe von gesponserten Videos verbergen"
+  },
+  "dontPromptStillWatching": {
+    "message": "Nicht auffordern \"Siehst du immer noch zu?\""
+  },
+  "hideDownvoted": {
+    "message": "Downvoted-Inhalt ausblenden"
+  },
+  "support": {
+    "message": "Unterstützung"
+  },
+  "highContrast": {
+    "message": "Kontrastreicher Modus"
+  },
+  "genreSearch": {
+    "message": "Genre-Suche"
+  },
+  "sourceCode": {
+    "message": "Quellcode"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Mitte kunagi Netflixi lõpetamine"
+  },
+  "manifest_description": {
+    "message": "Esita automaatselt järgmine episood, jätke pealkirjajada vahele, jätke vahele \"Kas sa ikka vaatad?\" küsib ja otsige üle 3000 žanri!"
+  },
+  "skipTitleSequences": {
+    "message": "Jäta pealkirja järjestused vahele"
+  },
+  "autoPlayNext": {
+    "message": "Esita järgmine episood automaatselt"
+  },
+  "alwaysWatchCredits": {
+    "message": "Jälgige alati krediiti"
+  },
+  "hideAutoPlayVid": {
+    "message": "Peida reklaamitud videote automaatne esitamine"
+  },
+  "dontPromptStillWatching": {
+    "message": "Ära küsi \"Kas sa ikka vaatad?\""
+  },
+  "hideDownvoted": {
+    "message": "Peida allalaaditud sisu"
+  },
+  "support": {
+    "message": "Toetus"
+  },
+  "highContrast": {
+    "message": "Kõrge kontrasti režiim"
+  },
+  "genreSearch": {
+    "message": "Žanri otsing"
+  },
+  "sourceCode": {
+    "message": "Lähtekood"
+  }
+}

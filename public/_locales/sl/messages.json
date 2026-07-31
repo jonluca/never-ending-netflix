@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Nikoli ne konča Netflixa"
+  },
+  "manifest_description": {
+    "message": "Samodejno predvajajte naslednjo epizodo, preskočite zaporedje posnetkov, preskočite »Ali še vedno gledate?« pozove in preišče več kot 3000 žanrov!"
+  },
+  "skipTitleSequences": {
+    "message": "Preskoči zaporedje naslovov"
+  },
+  "autoPlayNext": {
+    "message": "Samodejno predvajaj naslednjo epizodo"
+  },
+  "alwaysWatchCredits": {
+    "message": "Vedno si oglejte kredite"
+  },
+  "hideAutoPlayVid": {
+    "message": "Skrij samodejno predvajanje predstavljenih videoposnetkov"
+  },
+  "dontPromptStillWatching": {
+    "message": "Ne opomni \"Ali še vedno gledaš?\""
+  },
+  "hideDownvoted": {
+    "message": "Skrij preračunano vsebino"
+  },
+  "support": {
+    "message": "Podpora"
+  },
+  "highContrast": {
+    "message": "Način visoke kontrasta"
+  },
+  "genreSearch": {
+    "message": "Iskanje po zvrsti"
+  },
+  "sourceCode": {
+    "message": "Izvorna koda"
+  }
+}

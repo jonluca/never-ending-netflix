@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Nooit Netflix beëindigen"
+  },
+  "manifest_description": {
+    "message": "Speel automatisch de volgende aflevering, sla titellquenties over, sla \"Bekijk je nog steeds?\" prompts en zoek in meer dan 3000 genres!"
+  },
+  "skipTitleSequences": {
+    "message": "Titelvolgorde overslaan"
+  },
+  "autoPlayNext": {
+    "message": "Speel automatisch de volgende aflevering af"
+  },
+  "alwaysWatchCredits": {
+    "message": "Let altijd op Credits"
+  },
+  "hideAutoPlayVid": {
+    "message": "Verberg Auto gesponsorde video's afspelen"
+  },
+  "dontPromptStillWatching": {
+    "message": "Niet vragen \"Bekijk je nog steeds?\""
+  },
+  "hideDownvoted": {
+    "message": "Verberg gestemde inhoud"
+  },
+  "support": {
+    "message": "Ondersteuning"
+  },
+  "highContrast": {
+    "message": "Hoge contrastmodus"
+  },
+  "genreSearch": {
+    "message": "Genre zoeken"
+  },
+  "sourceCode": {
+    "message": "Broncode"
+  }
+}

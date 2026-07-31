@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Niekada nesibaigkite Netflix"
+  },
+  "manifest_description": {
+    "message": "Automatiškai paleisti kitą epizodą, praleiskite pavadinimų sekas, praleiskite „Ar vis dar žiūrite?“ nurodo ir ieškokite daugiau nei 3000 žanrų!"
+  },
+  "skipTitleSequences": {
+    "message": "Praleisti antraštės sekas"
+  },
+  "autoPlayNext": {
+    "message": "Automatiškai paleisti kitą epizodą"
+  },
+  "alwaysWatchCredits": {
+    "message": "Visada žiūrėkite kreditus"
+  },
+  "hideAutoPlayVid": {
+    "message": "Slėpti reklamuojamų vaizdo įrašų grojimą automatiškai"
+  },
+  "dontPromptStillWatching": {
+    "message": "Neprašykite „Ar vis dar žiūrite?“"
+  },
+  "hideDownvoted": {
+    "message": "Slėpti priskirtą turinį"
+  },
+  "support": {
+    "message": "Parama"
+  },
+  "highContrast": {
+    "message": "Aukšto kontrasto režimas"
+  },
+  "genreSearch": {
+    "message": "Žanro paieška"
+  },
+  "sourceCode": {
+    "message": "Pirminis kodas"
+  }
+}

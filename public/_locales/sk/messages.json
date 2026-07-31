@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Nikdy nekončí Netflix"
+  },
+  "manifest_description": {
+    "message": "Automaticky prehrať ďalšiu epizódu, preskočiť poradie titulkov, preskočiť \"Ste stále sledovať?\" výzvy, a vyhľadávanie cez 3000 žánrov!"
+  },
+  "skipTitleSequences": {
+    "message": "Preskočiť Názov Sekvencie"
+  },
+  "autoPlayNext": {
+    "message": "Automaticky Prehrať ďalšiu epizódu"
+  },
+  "alwaysWatchCredits": {
+    "message": "Vždy sledovať kredity"
+  },
+  "hideAutoPlayVid": {
+    "message": "Skryť propagované videá s automatickým prehrávaním"
+  },
+  "dontPromptStillWatching": {
+    "message": "Nepýtajte sa \"Stále sledujete?\""
+  },
+  "hideDownvoted": {
+    "message": "Skryť zmenený obsah"
+  },
+  "support": {
+    "message": "podpora"
+  },
+  "highContrast": {
+    "message": "Režim vysokého kontrastu"
+  },
+  "genreSearch": {
+    "message": "Vyhľadávanie žánrov"
+  },
+  "sourceCode": {
+    "message": "Zdrojový kód"
+  }
+}

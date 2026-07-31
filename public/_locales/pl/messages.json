@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Nigdy nie kończący się Netflix"
+  },
+  "manifest_description": {
+    "message": "Automatycznie odtwarzaj następny odcinek, pomiń sekwencje tytułów, pomiń \"Czy nadal oglądasz?\" podpowiedzi i przeszukaj ponad 3000 gatunków!"
+  },
+  "skipTitleSequences": {
+    "message": "Pomiń sekwencje tytułów"
+  },
+  "autoPlayNext": {
+    "message": "Automatycznie odtwarzaj następny odcinek"
+  },
+  "alwaysWatchCredits": {
+    "message": "Zawsze oglądaj kredyty"
+  },
+  "hideAutoPlayVid": {
+    "message": "Ukryj automatyczne odtwarzanie Promowane filmy wideo"
+  },
+  "dontPromptStillWatching": {
+    "message": "Nie pytaj \"Czy nadal oglądasz?\""
+  },
+  "hideDownvoted": {
+    "message": "Ukryj treść pobraną"
+  },
+  "support": {
+    "message": "Wsparcie"
+  },
+  "highContrast": {
+    "message": "Tryb wysokiego kontrastu"
+  },
+  "genreSearch": {
+    "message": "Wyszukiwanie gatunku"
+  },
+  "sourceCode": {
+    "message": "Kod źródłowy"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "manifest_name": {
+    "message": "Never Ending Netflix",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "manifest_description": {
+    "message": "Automatically play next episode, skip title sequences, skip \"Are you still watching?\" prompts, and search over 3000 genres!",
+    "description": "The description of the application, displayed in the web store."
+  },
+  "skipTitleSequences": {
+    "message": "Skip Title Sequences",
+    "description": ""
+  },
+  "autoPlayNext": {
+    "message": "Automatically Play Next Episode",
+    "description": "Text for the automatically play next episode option"
+  },
+  "alwaysWatchCredits": {
+    "message": "Always Watch Credits",
+    "description": "Text for the always watch credits option"
+  },
+  "hideAutoPlayVid": {
+    "message": "Hide Auto Playing Promoted Videos",
+    "description": "Text for the hide auto playing promoted video on netflix home page option"
+  },
+  "dontPromptStillWatching": {
+    "message": "Don't Prompt \"Are you still watching?\"",
+    "description": "Text for the dont prompt are you still watching after 8 hours have passed option"
+  },
+  "hideDownvoted": {
+    "message": "Hide Downvoted Content",
+    "description": "Text for the hide downvoted content option"
+  },
+  "dontMinimzeEndCreditsOfShow": {
+    "message": "Don't Minimize End Credits Of Show",
+    "description": "Text for the dont minize end credits of show content option"
+  },
+  "support": {
+    "message": "Support",
+    "description": "Text with a link to my websitem, for support"
+  },
+  "highContrast": {
+    "message": "High Contrast Mode",
+    "description": "Text to change the color scheme to have better contrast"
+  },
+  "genreSearch": {
+    "message": "Genre Search",
+    "description": "Place holder text for the search of a genre"
+  },
+  "sourceCode": {
+    "message": "Source Code",
+    "description": "Original source code published on github for this extension"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Nu se încheie niciodată Netflix"
+  },
+  "manifest_description": {
+    "message": "Redați automat episodul următor, săriți secvențe de titluri, săriți \"Încă mai urmărești?\" solicită și căutați peste 3000 de genuri!"
+  },
+  "skipTitleSequences": {
+    "message": "Ștergeți secvențele din titlu"
+  },
+  "autoPlayNext": {
+    "message": "Redați automat Episodul următor"
+  },
+  "alwaysWatchCredits": {
+    "message": "Vizionați întotdeauna creditele"
+  },
+  "hideAutoPlayVid": {
+    "message": "Ascundeți redarea automată a videoclipurilor promovate"
+  },
+  "dontPromptStillWatching": {
+    "message": "Nu promovați \"Încă mai urmăriți?\""
+  },
+  "hideDownvoted": {
+    "message": "Ascundeți Conținutul cu valoare inferioară"
+  },
+  "support": {
+    "message": "A sustine"
+  },
+  "highContrast": {
+    "message": "Mod de contrast înalt"
+  },
+  "genreSearch": {
+    "message": "Căutarea genului"
+  },
+  "sourceCode": {
+    "message": "Cod sursa"
+  }
+}

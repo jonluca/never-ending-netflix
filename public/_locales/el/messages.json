@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Ποτέ μην τερματίζετε το Netflix"
+  },
+  "manifest_description": {
+    "message": "Αυτόματη αναπαραγωγή του επόμενου επεισοδίου, παράλειψη ακολουθιών τίτλου, παραλείψτε \"Παρακολουθείτε ακόμα;\" προτροπές και αναζήτηση πάνω από 3000 είδη!"
+  },
+  "skipTitleSequences": {
+    "message": "Παράλειψη τίτλου ακολουθίες"
+  },
+  "autoPlayNext": {
+    "message": "Αυτόματη αναπαραγωγή επόμενου επεισοδίου"
+  },
+  "alwaysWatchCredits": {
+    "message": "Πάντα να παρακολουθείτε πιστώσεις"
+  },
+  "hideAutoPlayVid": {
+    "message": "Απόκρυψη αυτόματης αναπαραγωγής βίντεο που προωθούνται"
+  },
+  "dontPromptStillWatching": {
+    "message": "Μην προτροπή \"Είσαι ακόμα βλέποντας;\""
+  },
+  "hideDownvoted": {
+    "message": "Απόκρυψη περιεχομένου με downvoted"
+  },
+  "support": {
+    "message": "Υποστήριξη"
+  },
+  "highContrast": {
+    "message": "Λειτουργία υψηλής αντίθεσης"
+  },
+  "genreSearch": {
+    "message": "Αναζήτηση σε είδος"
+  },
+  "sourceCode": {
+    "message": "Κωδικός πηγής"
+  }
+}

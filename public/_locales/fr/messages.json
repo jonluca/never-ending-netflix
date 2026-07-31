@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Ne jamais terminer Netflix"
+  },
+  "manifest_description": {
+    "message": "Lire automatiquement le prochain épisode, ignorer les séquences de titres, ignorer \"Regardez-vous toujours?\" invite et recherchez plus de 3000 genres!"
+  },
+  "skipTitleSequences": {
+    "message": "Ignorer les séquences de titre"
+  },
+  "autoPlayNext": {
+    "message": "Lire automatiquement l'épisode suivant"
+  },
+  "alwaysWatchCredits": {
+    "message": "Toujours regarder les crédits"
+  },
+  "hideAutoPlayVid": {
+    "message": "Masquer la lecture automatique des vidéos sponsorisées"
+  },
+  "dontPromptStillWatching": {
+    "message": "Ne demandez pas \"Regardez-vous encore?\""
+  },
+  "hideDownvoted": {
+    "message": "Masquer le contenu défavorisé"
+  },
+  "support": {
+    "message": "Soutien"
+  },
+  "highContrast": {
+    "message": "Mode de contraste élevé"
+  },
+  "genreSearch": {
+    "message": "Recherche de genre"
+  },
+  "sourceCode": {
+    "message": "Code source"
+  }
+}

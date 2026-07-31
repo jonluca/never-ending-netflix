@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Nikad ne završava Netflix"
+  },
+  "manifest_description": {
+    "message": "Automatski reproducirajte sljedeću epizodu, preskočite sekvence naslova, preskočite \"Još uvijek gledate?\" traži i traži preko 3000 žanrova!"
+  },
+  "skipTitleSequences": {
+    "message": "Preskoči sekvence naslova"
+  },
+  "autoPlayNext": {
+    "message": "Automatski reproduciraj sljedeću epizodu"
+  },
+  "alwaysWatchCredits": {
+    "message": "Uvijek gledaj kredite"
+  },
+  "hideAutoPlayVid": {
+    "message": "Sakrij automatsko prikazivanje promoviranih videozapisa"
+  },
+  "dontPromptStillWatching": {
+    "message": "Nemojte upitati \"Jeste li i dalje gledali?\""
+  },
+  "hideDownvoted": {
+    "message": "Sakrij dodani sadržaj"
+  },
+  "support": {
+    "message": "podrška"
+  },
+  "highContrast": {
+    "message": "Način visokog kontrasta"
+  },
+  "genreSearch": {
+    "message": "Pretraživanje žanra"
+  },
+  "sourceCode": {
+    "message": "Izvorni kod"
+  }
+}

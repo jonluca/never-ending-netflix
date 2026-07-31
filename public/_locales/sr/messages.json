@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Невер Ендинг Нетфлик"
+  },
+  "manifest_description": {
+    "message": "Аутоматски репродукујте следећу епизоду, прескочите секвенце наслова, прескочите \"Да ли још увек гледате?\" тражи и тражи преко 3000 жанрова!"
+  },
+  "skipTitleSequences": {
+    "message": "Прескочи секвенце наслова"
+  },
+  "autoPlayNext": {
+    "message": "Аутоматски репродуцирај следећу епизоду"
+  },
+  "alwaysWatchCredits": {
+    "message": "Увек гледај кредите"
+  },
+  "hideAutoPlayVid": {
+    "message": "Сакриј аутоматско репродуковање промовисаних видеозаписа"
+  },
+  "dontPromptStillWatching": {
+    "message": "Не питајте \"Да ли још увек гледате?\""
+  },
+  "hideDownvoted": {
+    "message": "Хиде Довнвотед Цонтент"
+  },
+  "support": {
+    "message": "Подршка"
+  },
+  "highContrast": {
+    "message": "Режим високог контраста"
+  },
+  "genreSearch": {
+    "message": "Сеарцх Генре"
+  },
+  "sourceCode": {
+    "message": "Изворни код"
+  }
+}

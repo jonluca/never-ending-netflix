@@ -1,0 +1,22 @@
+export const NETFLIX_MATCHES = [
+  "*://*.netflix.com/*",
+  "*://*.netflix.co.uk/*",
+  "*://*.netflix.ar/*",
+  "*://*.netflix.au/*",
+  "*://*.netflix.br/*",
+  "*://*.netflix.ca/*",
+  "*://*.netflix.cz/*",
+  "*://*.netflix.de/*",
+  "*://*.netflix.es/*",
+  "*://*.netflix.fr/*",
+  "*://*.netflix.hk/*",
+  "*://*.netflix.in/*",
+  "*://*.netflix.jp/*",
+  "*://*.netflix.lt/*",
+  "*://*.netflix.nl/*",
+  "*://*.netflix.no/*",
+  "*://*.netflix.pl/*",
+  "*://*.netflix.ru/*",
+  "*://*.netflix.sg/*",
+  "*://*.netflix.sk/*"
+] as const;

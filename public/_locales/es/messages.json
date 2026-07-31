@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Nunca terminando Netflix"
+  },
+  "manifest_description": {
+    "message": "Reproduce automáticamente el siguiente episodio, salta secuencias de títulos, salta \"¿Sigues viendo?\" Pide, y busca en más de 3000 géneros!"
+  },
+  "skipTitleSequences": {
+    "message": "Saltar secuencias de títulos"
+  },
+  "autoPlayNext": {
+    "message": "Reproducir automáticamente el siguiente episodio"
+  },
+  "alwaysWatchCredits": {
+    "message": "Siempre ver creditos"
+  },
+  "hideAutoPlayVid": {
+    "message": "Ocultar Auto Reproduciendo Videos Promocionados"
+  },
+  "dontPromptStillWatching": {
+    "message": "No avisar \"¿Sigues mirando?\""
+  },
+  "hideDownvoted": {
+    "message": "Ocultar contenido downvoted"
+  },
+  "support": {
+    "message": "Apoyo"
+  },
+  "highContrast": {
+    "message": "Modo de alto contraste"
+  },
+  "genreSearch": {
+    "message": "Búsqueda de género"
+  },
+  "sourceCode": {
+    "message": "Código fuente"
+  }
+}

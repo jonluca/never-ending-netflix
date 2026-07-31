@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "ไม่สิ้นสุด Netflix"
+  },
+  "manifest_description": {
+    "message": "เล่นตอนถัดไปโดยอัตโนมัติข้ามลำดับหัวเรื่องข้าม \"คุณยังดูอยู่หรือไม่\" แจ้งให้และค้นหามากกว่า 3000 ประเภท!"
+  },
+  "skipTitleSequences": {
+    "message": "ข้ามลำดับหัวข้อ"
+  },
+  "autoPlayNext": {
+    "message": "เล่นตอนถัดไปโดยอัตโนมัติ"
+  },
+  "alwaysWatchCredits": {
+    "message": "คอยดูเครดิตอยู่เสมอ"
+  },
+  "hideAutoPlayVid": {
+    "message": "ซ่อนวิดีโอโปรโมตที่เล่นโดยอัตโนมัติ"
+  },
+  "dontPromptStillWatching": {
+    "message": "อย่าแสดง \"คุณยังคงดูอยู่หรือ\""
+  },
+  "hideDownvoted": {
+    "message": "ซ่อนเนื้อหาที่ถูกโหวต"
+  },
+  "support": {
+    "message": "สนับสนุน"
+  },
+  "highContrast": {
+    "message": "โหมดความคมชัดสูง"
+  },
+  "genreSearch": {
+    "message": "ค้นหาประเภท"
+  },
+  "sourceCode": {
+    "message": "รหัสแหล่งที่มา"
+  }
+}

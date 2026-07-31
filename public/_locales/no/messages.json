@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Aldri slutter Netflix"
+  },
+  "manifest_description": {
+    "message": "Spill automatisk neste episode, hopp over tittelsekvenser, hopp over \"Ser du fortsatt?\" spør, og søk over 3000 sjangere!"
+  },
+  "skipTitleSequences": {
+    "message": "Hopp over tittelsekvenser"
+  },
+  "autoPlayNext": {
+    "message": "Spill automatisk neste episode automatisk"
+  },
+  "alwaysWatchCredits": {
+    "message": "Se alltid på kreditt"
+  },
+  "hideAutoPlayVid": {
+    "message": "Skjul Auto Playing Promoted Videos"
+  },
+  "dontPromptStillWatching": {
+    "message": "Ikke spør \"Ser du fortsatt?\""
+  },
+  "hideDownvoted": {
+    "message": "Skjul nedvurdert innhold"
+  },
+  "support": {
+    "message": "Brukerstøtte"
+  },
+  "highContrast": {
+    "message": "Høy kontrastmodus"
+  },
+  "genreSearch": {
+    "message": "Genre søk"
+  },
+  "sourceCode": {
+    "message": "Kildekode"
+  }
+}

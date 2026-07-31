@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Netflix સમાપ્ત ક્યારેય"
+  },
+  "manifest_description": {
+    "message": "આપમેળે આગલા એપિસોડને ચલાવો, શીર્ષક સિક્વન્સને છોડો, છોડો \"શું તમે હજી પણ જોઈ રહ્યાં છો?\" પૂછે છે, અને 3000 શૈલીઓ ઉપર શોધ!"
+  },
+  "skipTitleSequences": {
+    "message": "શીર્ષક સિક્વન્સ છોડો"
+  },
+  "autoPlayNext": {
+    "message": "આપમેળે આગળ એપિસોડ રમો"
+  },
+  "alwaysWatchCredits": {
+    "message": "હંમેશા ક્રેડિટ જુઓ"
+  },
+  "hideAutoPlayVid": {
+    "message": "ઑટો વગાડવા પ્રચારિત વિડિઓઝ છુપાવો"
+  },
+  "dontPromptStillWatching": {
+    "message": "પ્રોમ્પ્ટ કરશો નહીં \"શું તમે હજી પણ જોશો?\""
+  },
+  "hideDownvoted": {
+    "message": "ડાઉનવૉટ કરેલી સામગ્રી છુપાવો"
+  },
+  "support": {
+    "message": "સપોર્ટ"
+  },
+  "highContrast": {
+    "message": "ઉચ્ચ કોન્ટ્રાસ્ટ મોડ"
+  },
+  "genreSearch": {
+    "message": "શૈલી શોધ"
+  },
+  "sourceCode": {
+    "message": "સ્ત્રોત કોડ"
+  }
+}

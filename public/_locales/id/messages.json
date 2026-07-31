@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Tidak Pernah Mengakhiri Netflix"
+  },
+  "manifest_description": {
+    "message": "Putar episode berikutnya secara otomatis, lewati urutan judul, lewati \"Anda masih menonton?\" meminta, dan cari lebih dari 3000 genre!"
+  },
+  "skipTitleSequences": {
+    "message": "Lewati Urutan Judul"
+  },
+  "autoPlayNext": {
+    "message": "Putar Episode Berikutnya secara otomatis"
+  },
+  "alwaysWatchCredits": {
+    "message": "Selalu Perhatikan Kredit"
+  },
+  "hideAutoPlayVid": {
+    "message": "Sembunyikan Putar Otomatis Video yang Dipromosikan"
+  },
+  "dontPromptStillWatching": {
+    "message": "Don't Prompt \"Apakah kamu masih menonton?\""
+  },
+  "hideDownvoted": {
+    "message": "Sembunyikan Konten yang Diturunkan"
+  },
+  "support": {
+    "message": "Mendukung"
+  },
+  "highContrast": {
+    "message": "Mode Kontras Tinggi"
+  },
+  "genreSearch": {
+    "message": "Pencarian Genre"
+  },
+  "sourceCode": {
+    "message": "Kode sumber"
+  }
+}

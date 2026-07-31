@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "끝내지 않는 Netflix"
+  },
+  "manifest_description": {
+    "message": "자동으로 다음 에피소드 재생, 제목 순서 건너 뛰기, 건너 뛰기 \"아직 시청중인가요?\" 3000 장르 이상의 검색어를 입력하고 검색하십시오!"
+  },
+  "skipTitleSequences": {
+    "message": "제목 시퀀스 건너 뛰기"
+  },
+  "autoPlayNext": {
+    "message": "자동으로 다음 에피소드 재생"
+  },
+  "alwaysWatchCredits": {
+    "message": "항상 크레딧보기"
+  },
+  "hideAutoPlayVid": {
+    "message": "프로모션 동영상 자동 재생 숨기기"
+  },
+  "dontPromptStillWatching": {
+    "message": "메시지를 표시하지 마십시오. \"아직도 지켜보고 있습니까?\""
+  },
+  "hideDownvoted": {
+    "message": "Downvoted 콘텐츠 숨기기"
+  },
+  "support": {
+    "message": "지원하다"
+  },
+  "highContrast": {
+    "message": "고 대비 모드"
+  },
+  "genreSearch": {
+    "message": "장르 검색"
+  },
+  "sourceCode": {
+    "message": "소스 코드"
+  }
+}

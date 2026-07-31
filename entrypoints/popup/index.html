@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Never Ending Netflix</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <h1 data-i18n="manifest_name">Never Ending Netflix</h1>
+      <form id="options">
+        <label><input type="checkbox" data-option="skipTitleSequence" /><span data-i18n="skipTitleSequences">Skip Title Sequences</span></label>
+        <label><input type="checkbox" data-option="autoPlayNext" /><span data-i18n="autoPlayNext">Automatically Play Next Episode</span></label>
+        <label><input type="checkbox" data-option="watchCredits" /><span data-i18n="alwaysWatchCredits">Always Watch Credits</span></label>
+        <label><input type="checkbox" data-option="disableAutoPlayOnBrowse" /><span data-i18n="hideAutoPlayVid">Hide Auto Playing Promoted Videos</span></label>
+        <label><input type="checkbox" data-option="skipStillHere" /><span data-i18n="dontPromptStillWatching">Don't Prompt “Are you still watching?”</span></label>
+        <label><input type="checkbox" data-option="dontMinimzeEndCreditsOfShow" /><span data-i18n="dontMinimzeEndCreditsOfShow">Don't Minimize End Credits</span></label>
+        <label><input type="checkbox" data-option="hideDisliked" /><span data-i18n="hideDownvoted">Hide Downvoted Content</span></label>
+      </form>
+      <input id="genre-search" type="search" data-i18n-placeholder="genreSearch" placeholder="Genre Search" />
+      <div id="results"></div>
+      <footer>
+        <a data-url="https://github.com/jonluca/Never-Ending-Netflix" data-i18n="sourceCode">Source Code</a>
+        <button id="contrast" type="button" data-i18n="highContrast">High Contrast Mode</button>
+      </footer>
+    </main>
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "name": "never-ending-netflix",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wxt -b chrome --mv3",
+    "dev:firefox": "wxt -b firefox --mv3",
+    "typecheck": "wxt prepare && tsc --noEmit",
+    "build": "npm run build:chrome && npm run build:edge && npm run build:firefox && npm run build:safari",
+    "build:chrome": "wxt build -b chrome --mv3",
+    "build:edge": "wxt build -b edge --mv3",
+    "build:firefox": "wxt build -b firefox --mv3",
+    "build:safari": "wxt build -b safari --mv3",
+    "zip": "wxt zip -b chrome --mv3",
+    "zip:firefox": "wxt zip -b firefox --mv3",
+    "lint:firefox": "web-ext lint --source-dir .output/firefox-mv3"
+  },
+  "devDependencies": {
+    "@types/chrome": "0.2.4",
+    "typescript": "6.0.3",
+    "web-ext": "10.5.0",
+    "wxt": "0.21.3"
+  },
+  "packageManager": "npm@12.0.1",
+  "overrides": {
+    "adm-zip": "0.6.0",
+    "esbuild": "0.28.1",
+    "next": "16.2.12",
+    "postcss": "8.5.25",
+    "sharp": "0.35.3",
+    "shell-quote": "1.10.0"
+  }
+}

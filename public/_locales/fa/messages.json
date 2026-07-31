@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "پایان دادن به Netflix هرگز"
+  },
+  "manifest_description": {
+    "message": "به طور خودکار قسمت بعدی را پخش کنید، پیغامهای عنوان را پر کنید، پرش کنید \"آیا هنوز هم تماشا میکنید؟\" پیشنهاد می کند و بیش از 3000 ژانر را جستجو می کند!"
+  },
+  "skipTitleSequences": {
+    "message": "پرش سریالها"
+  },
+  "autoPlayNext": {
+    "message": "به صورت خودکار بازی بعدی قسمت"
+  },
+  "alwaysWatchCredits": {
+    "message": "همیشه تماشا کنید"
+  },
+  "hideAutoPlayVid": {
+    "message": "مخفی کردن خودکار پخش ویدیوهای تبلیغاتی"
+  },
+  "dontPromptStillWatching": {
+    "message": "اعلان نمی کنید \"آیا هنوز تماشا می کنید؟\""
+  },
+  "hideDownvoted": {
+    "message": "مخفی کردن محتوای پایین"
+  },
+  "support": {
+    "message": "حمایت کردن"
+  },
+  "highContrast": {
+    "message": "حالت کنتراست بالا"
+  },
+  "genreSearch": {
+    "message": "جستجوی ژانر"
+  },
+  "sourceCode": {
+    "message": "کد منبع"
+  }
+}

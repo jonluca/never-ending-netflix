@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Soha nem zárja le a Netflix-et"
+  },
+  "manifest_description": {
+    "message": "Automatikusan lejátssza a következő epizódot, hagyja ki a címsorozatokat, hagyja ki a \"Még mindig figyel?\" kéri, és keressen több mint 3000 műfajot!"
+  },
+  "skipTitleSequences": {
+    "message": "Ugrás a cím sorozatokra"
+  },
+  "autoPlayNext": {
+    "message": "A következő epizód automatikus lejátszása"
+  },
+  "alwaysWatchCredits": {
+    "message": "Mindig nézz krediteket"
+  },
+  "hideAutoPlayVid": {
+    "message": "Az előléptetett videók automatikus lejátszása elrejtése"
+  },
+  "dontPromptStillWatching": {
+    "message": "Ne kérjen \"Még mindig figyel?\""
+  },
+  "hideDownvoted": {
+    "message": "Elrejtett tartalom elrejtése"
+  },
+  "support": {
+    "message": "Támogatás"
+  },
+  "highContrast": {
+    "message": "Nagy kontraszt mód"
+  },
+  "genreSearch": {
+    "message": "Műfaj keresés"
+  },
+  "sourceCode": {
+    "message": "Forráskód"
+  }
+}

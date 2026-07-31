@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Netflix لا يتوقّف" 
+  },
+  "manifest_description": {
+    "message": "بدء الحلقة التالية تلقائيًا، تخطي المقدمة، تخطي تنبيه \"هل ما زلت تشاهد؟\"، والبحث في أكثر من 3000 تصنيف!"
+  },
+  "skipTitleSequences": {
+    "message": "تخطي المقدمة"
+  },
+  "autoPlayNext": {
+    "message": "بدء الحلقة التالية تلقائيًا"
+  },
+  "alwaysWatchCredits": {
+    "message": "مشاهدة أسماء طاقم العمل"
+  },
+  "hideAutoPlayVid": {
+    "message": "إخفاء الفيديوهات الدعائية"
+  },
+  "dontPromptStillWatching": {
+    "message": "إخفاء\"هل ما زلت تشاهد؟\""
+  },
+  "hideDownvoted": {
+    "message": "إخفاء التقييمات السيئة"
+  },
+  "support": {
+    "message": "الدعم الفني"
+  },
+  "highContrast": {
+    "message": "وضع التباين العالي"
+  },
+  "genreSearch": {
+    "message": "بحث في التصنيفات"
+  },
+  "sourceCode": {
+    "message": "Source Code"
+  }
+}

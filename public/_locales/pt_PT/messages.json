@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Nunca terminando Netflix"
+  },
+  "manifest_description": {
+    "message": "Reproduzir automaticamente o próximo episódio, pular seqüências de título, pular \"Você ainda está assistindo?\" solicita, e busca mais de 3000 gêneros!"
+  },
+  "skipTitleSequences": {
+    "message": "Saltar seqüências de títulos"
+  },
+  "autoPlayNext": {
+    "message": "Reproduzir automaticamente o próximo episódio"
+  },
+  "alwaysWatchCredits": {
+    "message": "Sempre Assista Créditos"
+  },
+  "hideAutoPlayVid": {
+    "message": "Ocultar vídeos promovidos de reprodução automática"
+  },
+  "dontPromptStillWatching": {
+    "message": "Não pergunte \"Você ainda está assistindo?\""
+  },
+  "hideDownvoted": {
+    "message": "Hide Downvoted Content"
+  },
+  "support": {
+    "message": "Apoio, suporte"
+  },
+  "highContrast": {
+    "message": "Modo de alto contraste"
+  },
+  "genreSearch": {
+    "message": "Pesquisa de gênero"
+  },
+  "sourceCode": {
+    "message": "Código fonte"
+  }
+}

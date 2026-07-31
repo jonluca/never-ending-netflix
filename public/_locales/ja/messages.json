@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Never Ending Netflix"
+  },
+  "manifest_description": {
+    "message": "次のエピソードを自動再生し、イントロ画面を自動スキップし、「まだ視聴していますか？」の確認画面を非表示にします。3000以上のジャンル検索にも対応！"
+  },
+  "skipTitleSequences": {
+    "message": "イントロ画面を自動スキップする"
+  },
+  "autoPlayNext": {
+    "message": "次のエピソードを自動再生する"
+  },
+  "alwaysWatchCredits": {
+    "message": "常にクレジットを見る"
+  },
+  "hideAutoPlayVid": {
+    "message": "自動再生のプロモート動画を非表示にする"
+  },
+  "dontPromptStillWatching": {
+    "message": "「まだ見ていますか？」という確認画面を非表示にする"
+  },
+  "hideDownvoted": {
+    "message": "イマイチと評価した作品を非表示にする"
+  },
+  "support": {
+    "message": "サポート"
+  },
+  "highContrast": {
+    "message": "ハイコントラストモード"
+  },
+  "genreSearch": {
+    "message": "ジャンル検索"
+  },
+  "sourceCode": {
+    "message": "ソースコード"
+  }
+}

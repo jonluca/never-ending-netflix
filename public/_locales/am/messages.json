@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Netflix ጨርሶ አያጠፋም"
+  },
+  "manifest_description": {
+    "message": "ቀጣዩን ክፍል በራስ-ሰር ይጫወቱ, የርዕስ ቅደም ተከተሎችን ይዝለሉ, ዘለሉ \"አሁንም እየተመለከቱ ነዎት?\" መጥቀስ እና ከ 3000 በላይ የሆኑ ዘውጎችን መፈለግ!"
+  },
+  "skipTitleSequences": {
+    "message": "የርዕስ ቅደም ተከተሎችን ዝለል"
+  },
+  "autoPlayNext": {
+    "message": "የሚቀጥለውን ክፍል በራስ-ሰር አጫውት"
+  },
+  "alwaysWatchCredits": {
+    "message": "ሁልጊዜም ብሬቶችን ይዩ"
+  },
+  "hideAutoPlayVid": {
+    "message": "የሚተዋወቁ ቪዲዮዎች በራስ አጫውት ደብቅ"
+  },
+  "dontPromptStillWatching": {
+    "message": "አትፍቀድ \"አሁንም ድረስ እያዩ ነው?\""
+  },
+  "hideDownvoted": {
+    "message": "ዝቅ የተደረገ ይዘት ደብቅ"
+  },
+  "support": {
+    "message": "ድጋፍ"
+  },
+  "highContrast": {
+    "message": "ከፍተኛ ንፅፅር ሁነታ"
+  },
+  "genreSearch": {
+    "message": "ዘውግ ፍለጋ"
+  },
+  "sourceCode": {
+    "message": "ምንጭ ኮድ"
+  }
+}

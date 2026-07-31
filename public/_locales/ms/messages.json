@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Jangan Berakhir Netflix"
+  },
+  "manifest_description": {
+    "message": "Mainkan episod seterusnya secara automatik, langkau urutan tajuk, langkau \"Adakah anda masih menonton?\" ganjaran, dan mencari lebih daripada 3000 genre!"
+  },
+  "skipTitleSequences": {
+    "message": "Langkau Tajuk Urutan"
+  },
+  "autoPlayNext": {
+    "message": "Mainkan Episod Seterusnya secara automatik"
+  },
+  "alwaysWatchCredits": {
+    "message": "Sentiasa Menonton Kredit"
+  },
+  "hideAutoPlayVid": {
+    "message": "Sembunyikan Video Promosi Bermain Auto"
+  },
+  "dontPromptStillWatching": {
+    "message": "Jangan Promo \"Adakah anda masih menonton?\""
+  },
+  "hideDownvoted": {
+    "message": "Sembunyikan Kandungan Dipadam"
+  },
+  "support": {
+    "message": "Sokongan"
+  },
+  "highContrast": {
+    "message": "Mod Kontras Tinggi"
+  },
+  "genreSearch": {
+    "message": "Carian Genre"
+  },
+  "sourceCode": {
+    "message": "Kod sumber"
+  }
+}

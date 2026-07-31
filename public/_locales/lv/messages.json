@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Nekad nebeidziet Netflix"
+  },
+  "manifest_description": {
+    "message": "Automātiski atskaņot nākamo epizodi, izlaidiet nosaukumu sekvences, izlaidiet \"Vai jūs joprojām skatāties?\" uzvedne un meklēt vairāk nekā 3000 žanru!"
+  },
+  "skipTitleSequences": {
+    "message": "Izlaist nosaukuma secības"
+  },
+  "autoPlayNext": {
+    "message": "Automātiski atskaņot nākamo epizodi"
+  },
+  "alwaysWatchCredits": {
+    "message": "Vienmēr skatiet kredītus"
+  },
+  "hideAutoPlayVid": {
+    "message": "Paslēpt reklamēto videoklipu automātisko atskaņošanu"
+  },
+  "dontPromptStillWatching": {
+    "message": "Nepieprasiet \"Vai jūs joprojām skatāties?\""
+  },
+  "hideDownvoted": {
+    "message": "Slēpt lejupvērstu saturu"
+  },
+  "support": {
+    "message": "Atbalsts"
+  },
+  "highContrast": {
+    "message": "Augsta kontrasta režīms"
+  },
+  "genreSearch": {
+    "message": "Žanra meklēšana"
+  },
+  "sourceCode": {
+    "message": "Avota kods"
+  }
+}

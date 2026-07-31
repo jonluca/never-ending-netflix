@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "नेटफ्लिक्स को कभी समाप्त न करें"
+  },
+  "manifest_description": {
+    "message": "स्वचालित रूप से अगला एपिसोड चलाएं, शीर्षक अनुक्रम छोड़ें, छोड़ें \"क्या आप अभी भी देख रहे हैं?\" संकेत देता है, और 3000 से अधिक शैलियों की खोज!"
+  },
+  "skipTitleSequences": {
+    "message": "शीर्षक अनुक्रम छोड़ें"
+  },
+  "autoPlayNext": {
+    "message": "स्वचालित रूप से अगला एपिसोड खेलें"
+  },
+  "alwaysWatchCredits": {
+    "message": "हमेशा वॉच क्रेडिट"
+  },
+  "hideAutoPlayVid": {
+    "message": "छिपाएँ ऑटो प्लेइंग प्रचारित वीडियो"
+  },
+  "dontPromptStillWatching": {
+    "message": "शीघ्र मत करो \"क्या आप अभी भी देख रहे हैं?\""
+  },
+  "hideDownvoted": {
+    "message": "नीचे की ओर छिपी हुई सामग्री छिपाएँ"
+  },
+  "support": {
+    "message": "समर्थन"
+  },
+  "highContrast": {
+    "message": "उच्च कंट्रास्ट मोड"
+  },
+  "genreSearch": {
+    "message": "शैली खोज"
+  },
+  "sourceCode": {
+    "message": "सोर्स कोड"
+  }
+}

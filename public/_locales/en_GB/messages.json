@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Never Ending Netflix"
+  },
+  "manifest_description": {
+    "message": "Automatically play next episode, skip title sequences, skip \"Are you still watching?\" prompts, and search over 3000 genres!"
+  },
+  "skipTitleSequences": {
+    "message": "Skip Title Sequences"
+  },
+  "autoPlayNext": {
+    "message": "Automatically Play Next Episode"
+  },
+  "alwaysWatchCredits": {
+    "message": "Always Watch Credits"
+  },
+  "hideAutoPlayVid": {
+    "message": "Hide Auto Playing Promoted Videos"
+  },
+  "dontPromptStillWatching": {
+    "message": "Don't Prompt \"Are you still watching?\""
+  },
+  "hideDownvoted": {
+    "message": "Hide Downvoted Content"
+  },
+  "support": {
+    "message": "Support"
+  },
+  "highContrast": {
+    "message": "High Contrast Mode"
+  },
+  "genreSearch": {
+    "message": "Genre Search"
+  },
+  "sourceCode": {
+    "message": "Source Code"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Slutar aldrig Netflix"
+  },
+  "manifest_description": {
+    "message": "Spela automatiskt nästa avsnitt, hoppa över titelsekvenser, hoppa över \"Kollar du fortfarande?\" frågar och sök över 3000 genrer!"
+  },
+  "skipTitleSequences": {
+    "message": "Hoppa över titelsekvenser"
+  },
+  "autoPlayNext": {
+    "message": "Spela upp nästa episod automatiskt"
+  },
+  "alwaysWatchCredits": {
+    "message": "Se alltid på krediter"
+  },
+  "hideAutoPlayVid": {
+    "message": "Dölj Auto Playing Promoted Videos"
+  },
+  "dontPromptStillWatching": {
+    "message": "Fråga inte \"Kollar du fortfarande?\""
+  },
+  "hideDownvoted": {
+    "message": "Dölj nedvalsat innehåll"
+  },
+  "support": {
+    "message": "Stöd"
+  },
+  "highContrast": {
+    "message": "Hög kontrastläge"
+  },
+  "genreSearch": {
+    "message": "Genre sökning"
+  },
+  "sourceCode": {
+    "message": "Källkod"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "לעולם לא הסתיים Netflix"
+  },
+  "manifest_description": {
+    "message": "הפעל אוטומטית את הפרק הבא, דלג על רצף הכותרת, דלג על \"האם אתה עדיין צופה?\" הנחיות, ולחפש מעל 3000 ז'אנרים!"
+  },
+  "skipTitleSequences": {
+    "message": "דלג על כותרת רצפים"
+  },
+  "autoPlayNext": {
+    "message": "אוטומטית לשחק הבא פרק"
+  },
+  "alwaysWatchCredits": {
+    "message": "תמיד לצפות קרדיטים"
+  },
+  "hideAutoPlayVid": {
+    "message": "הסתר וידאו מקודם מקודם"
+  },
+  "dontPromptStillWatching": {
+    "message": "אל תבקש \"האם אתה עדיין צופה?\""
+  },
+  "hideDownvoted": {
+    "message": "הסתר תוכן שנמוך"
+  },
+  "support": {
+    "message": "תמיכה"
+  },
+  "highContrast": {
+    "message": "מצב ניגודיות גבוהה"
+  },
+  "genreSearch": {
+    "message": "חיפוש ז'אנר"
+  },
+  "sourceCode": {
+    "message": "קוד מקור"
+  }
+}

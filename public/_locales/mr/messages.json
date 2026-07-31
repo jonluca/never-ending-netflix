@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "नेटफ्लिक्स कधीही समाप्त करत नाही"
+  },
+  "manifest_description": {
+    "message": "पुढील भाग स्वयंचलितपणे प्ले करा, शीर्षक क्रम वगळा, \"आपण अद्याप पहात आहात?\" वगळा 3000 शैलींविषयी विचारले आणि शोधत आहे!"
+  },
+  "skipTitleSequences": {
+    "message": "शीर्षक क्रम वगळा"
+  },
+  "autoPlayNext": {
+    "message": "पुढील भाग स्वयंचलितपणे प्ले करा"
+  },
+  "alwaysWatchCredits": {
+    "message": "नेहमीच क्रेडिट पहा"
+  },
+  "hideAutoPlayVid": {
+    "message": "ऑटो प्लेिंग जाहिरात केलेल्या व्हिडिओ लपवा"
+  },
+  "dontPromptStillWatching": {
+    "message": "\"अद्याप आपण पहात आहात काय?\""
+  },
+  "hideDownvoted": {
+    "message": "Downvoted सामग्री लपवा"
+  },
+  "support": {
+    "message": "समर्थन"
+  },
+  "highContrast": {
+    "message": "उच्च तीव्रता मोड"
+  },
+  "genreSearch": {
+    "message": "शैली शोध"
+  },
+  "sourceCode": {
+    "message": "मूळ सांकेतिक शब्दकोश"
+  }
+}

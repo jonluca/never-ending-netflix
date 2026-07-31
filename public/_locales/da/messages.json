@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Aldrig slutter Netflix"
+  },
+  "manifest_description": {
+    "message": "Spil automatisk næste episode, spring titelsekvenser, spring over \"Kigger du stadig?\" anmelder og søg over 3000 genrer!"
+  },
+  "skipTitleSequences": {
+    "message": "Spring titel sekvenser over"
+  },
+  "autoPlayNext": {
+    "message": "Afspil automatisk næste episode"
+  },
+  "alwaysWatchCredits": {
+    "message": "Se altid Credits"
+  },
+  "hideAutoPlayVid": {
+    "message": "Skjul automatisk afspilning af promoverede videoer"
+  },
+  "dontPromptStillWatching": {
+    "message": "Spørg ikke \"Ser du stadig?\""
+  },
+  "hideDownvoted": {
+    "message": "Skjul nedvurderet indhold"
+  },
+  "support": {
+    "message": "Support"
+  },
+  "highContrast": {
+    "message": "Høj kontrast tilstand"
+  },
+  "genreSearch": {
+    "message": "Genre søgning"
+  },
+  "sourceCode": {
+    "message": "Kildekode"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Never Ending Netflix"
+  },
+  "manifest_description": {
+    "message": "Riproduci automaticamente l'episodio successivo, salta le sequenze di titoli, salta \"Stai ancora guardando?\" richiede e cerca oltre 3000 generi!"
+  },
+  "skipTitleSequences": {
+    "message": "Salta Sequenze Titolo"
+  },
+  "autoPlayNext": {
+    "message": "Riproduci automaticamente l'episodio successivo"
+  },
+  "alwaysWatchCredits": {
+    "message": "Guarda sempre i crediti"
+  },
+  "hideAutoPlayVid": {
+    "message": "Nascondi riproduzione automatica di video sponsorizzati"
+  },
+  "dontPromptStillWatching": {
+    "message": "Non chiedere \"Stai ancora guardando?\""
+  },
+  "hideDownvoted": {
+    "message": "Nascondi contenuto a download ridotto"
+  },
+  "support": {
+    "message": "Supporto"
+  },
+  "highContrast": {
+    "message": "Modalità Contrasto elevato"
+  },
+  "genreSearch": {
+    "message": "Ricerca di genere"
+  },
+  "sourceCode": {
+    "message": "Codice sorgente"
+  }
+}

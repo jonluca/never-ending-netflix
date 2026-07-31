@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Netflix শেষ না"
+  },
+  "manifest_description": {
+    "message": "স্বয়ংক্রিয়ভাবে পরবর্তী পর্বটি খেলুন, শিরোনাম ক্রমগুলি এড়িয়ে যান, \"আপনি কি এখনও দেখছেন?\" অনুরোধ, এবং 3,000 শৈলী উপর অনুসন্ধান!"
+  },
+  "skipTitleSequences": {
+    "message": "শিরোনাম ক্রম উপেক্ষা করুন"
+  },
+  "autoPlayNext": {
+    "message": "স্বয়ংক্রিয়ভাবে পরবর্তী পর্ব খেলা"
+  },
+  "alwaysWatchCredits": {
+    "message": "সর্বদা ক্রেডিট দেখুন"
+  },
+  "hideAutoPlayVid": {
+    "message": "অটো বাজানো প্রচারিত ভিডিও লুকান"
+  },
+  "dontPromptStillWatching": {
+    "message": "প্রম্পট করবেন না \"আপনি কি এখনও দেখছেন?\""
+  },
+  "hideDownvoted": {
+    "message": "Downvoted কন্টেন্ট লুকান"
+  },
+  "support": {
+    "message": "সমর্থন"
+  },
+  "highContrast": {
+    "message": "উচ্চ বিপরীতে মোড"
+  },
+  "genreSearch": {
+    "message": "জেনার অনুসন্ধান"
+  },
+  "sourceCode": {
+    "message": "সোর্স কোড"
+  }
+}

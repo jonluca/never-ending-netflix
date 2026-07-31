@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Kamwe Kumalizika Netflix"
+  },
+  "manifest_description": {
+    "message": "Furahia tukio la pili kwa moja kwa moja, ruka ufuatiliaji wa kichwa, ruka \"Je, bado unaangalia?\" husababisha, na kutafuta zaidi ya aina 3,000!"
+  },
+  "skipTitleSequences": {
+    "message": "Ruka Kichwa cha Utaratibu"
+  },
+  "autoPlayNext": {
+    "message": "Jaribu Kipindi cha Ijayo kwa moja kwa moja"
+  },
+  "alwaysWatchCredits": {
+    "message": "Tazama Credits Zote"
+  },
+  "hideAutoPlayVid": {
+    "message": "Ficha Auto kucheza Video Kukuzwa"
+  },
+  "dontPromptStillWatching": {
+    "message": "Usiruhusu \"Je, bado unaangalia?\""
+  },
+  "hideDownvoted": {
+    "message": "Ficha Maudhui yaliyopunguzwa"
+  },
+  "support": {
+    "message": "Msaada"
+  },
+  "highContrast": {
+    "message": "Njia ya Tofauti ya Juu"
+  },
+  "genreSearch": {
+    "message": "Utafutaji wa aina"
+  },
+  "sourceCode": {
+    "message": "Chanzo Kanuni"
+  }
+}

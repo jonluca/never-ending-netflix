@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Mai acabes Netflix"
+  },
+  "manifest_description": {
+    "message": "Reproduir automàticament el següent episodi, saltar les seqüències de títols, ometre \"Encara està veient?\" sol·licituds i cerca més de 3000 gèneres!"
+  },
+  "skipTitleSequences": {
+    "message": "Saltar les seqüències de títol"
+  },
+  "autoPlayNext": {
+    "message": "Reprodueix automàticament el següent episodi"
+  },
+  "alwaysWatchCredits": {
+    "message": "Vegeu sempre els crèdits"
+  },
+  "hideAutoPlayVid": {
+    "message": "Amaga la reproducció automàtica de vídeos promocionats"
+  },
+  "dontPromptStillWatching": {
+    "message": "No demanis \"Encara estàs veient?\""
+  },
+  "hideDownvoted": {
+    "message": "Amaga el contingut baixat"
+  },
+  "support": {
+    "message": "Suport"
+  },
+  "highContrast": {
+    "message": "Mode de contrast alt"
+  },
+  "genreSearch": {
+    "message": "Cerca de gèneres"
+  },
+  "sourceCode": {
+    "message": "Codi font"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "manifest_name": {
+    "message": "Hindi Natapos ang Netflix"
+  },
+  "manifest_description": {
+    "message": "Awtomatikong i-play ang susunod na episode, laktawan ang mga pagkakasunud-sunod ng pamagat, laktawan ang \"Nanonood ka pa ba?\" mga senyas, at maghanap sa mahigit na 3000 genre!"
+  },
+  "skipTitleSequences": {
+    "message": "Laktawan ang Mga Pamagat ng Mga Pamagat"
+  },
+  "autoPlayNext": {
+    "message": "Awtomatikong I-play ang Susunod na Episode"
+  },
+  "alwaysWatchCredits": {
+    "message": "Palaging Panoorin ang Mga Kredito"
+  },
+  "hideAutoPlayVid": {
+    "message": "Itago ang Mga Video na Mga Na-promote na Pag-play ng Auto"
+  },
+  "dontPromptStillWatching": {
+    "message": "Huwag Pakiusapan \"Nanonood ka pa ba?\""
+  },
+  "hideDownvoted": {
+    "message": "Itago ang Downvoted Content"
+  },
+  "support": {
+    "message": "Suporta"
+  },
+  "highContrast": {
+    "message": "Mataas na Contrast Mode"
+  },
+  "genreSearch": {
+    "message": "Paghahanap ng Genre"
+  },
+  "sourceCode": {
+    "message": "Code ng Pinagmulan"
+  }
+}
