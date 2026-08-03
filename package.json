@@ -17,12 +17,12 @@
     "lint:firefox": "web-ext lint --source-dir .output/firefox-mv3"
   },
   "devDependencies": {
-    "@types/chrome": "0.2.4",
-    "typescript": "6.0.3",
+    "@types/chrome": "0.2.5",
+    "typescript": "7.0.2",
     "web-ext": "10.5.0",
     "wxt": "0.21.3"
   },
-  "packageManager": "npm@12.0.1",
+  "packageManager": "npm@12.0.2",
   "overrides": {
     "adm-zip": "0.6.0",
     "esbuild": "0.28.1",

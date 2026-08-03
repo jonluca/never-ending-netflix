@@ -31,3 +31,9 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+# WXT build and dependency output
+node_modules/
+.output/
+.wxt/
+*.zip
+.DS_Store
