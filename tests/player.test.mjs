@@ -164,6 +164,8 @@ test("React pointer controls receive one pointerdown and no duplicate click or d
   ui.tick(5_000);
   ui.progress(3599);
   await settle();
+  // Date.now controls cooldowns; let real DOM timers run to catch the old 500ms retries.
+  await new Promise((resolve) => setTimeout(resolve, 2_200));
   assert.equal(pointers, 1);
   assert.equal(clicks.length, 0);
 });
