@@ -1,5 +1,20 @@
 import { NETFLIX_MATCHES } from "../netflix-matches";
 
+/**
+ * Este script roda no MAIN world porque só ele vê o objeto `window.netflix`
+ * (usado para despausar o vídeo). As ações de "próximo episódio" e
+ * "assistir créditos" NÃO devem insistir: avançar é transição de estado.
+ *
+ * Bug 3.0.1: aqui havia `retry()` (clique a cada 500 ms por 2 s) para
+ * `nextEpEvent`. Como o content script já clicava no botão e depois disparava
+ * o evento, o mesmo "próximo" era executado 2–3 vezes; com o botão do episódio
+ * seguinte já remontado, o retry pulava mais um → 1 → 3.
+ */
+const ADVANCE_LOCK_MS = 4_000;
+
+/** Só avança quando o episódio corrente realmente está acabando (ver content.ts). */
+const END_OF_EPISODE_WINDOW_S = 10;
+
 export default defineContentScript({
   matches: [...NETFLIX_MATCHES],
   world: "MAIN",
@@ -11,10 +26,10 @@ export default defineContentScript({
         '[aria-label^="Continue Playing"]'
       ],
       nextEpisode: [
+        '[data-uia="next-episode-seamless-button"]',
+        '[aria-label^="Next episode"]',
         ".WatchNext-autoplay",
         ".WatchNext-still-hover-container",
-        '[aria-label^="Next episode"]',
-        '[data-uia^="next-episode-seamless-button"]',
         ".draining"
       ],
       skipIntro: [
@@ -23,11 +38,24 @@ export default defineContentScript({
         ".skip-credits > a",
         ".watch-video--skip-content > button"
       ],
-      watchCredits: ['[aria-label^="Watch credits"]', '[data-uia^="watch-credits-seamless-button"]']
+      watchCredits: ['[data-uia^="watch-credits-seamless-button"]', '[aria-label^="Watch credits"]']
+    };
+
+    let advanceLockedUntil = 0;
+
+    // `offsetParent` é null em elementos `position: fixed` (controles do player),
+    // então a visibilidade vem das client rects.
+    const isClickable = (element: HTMLElement) => {
+      if (element.hasAttribute("disabled") || element.getAttribute("aria-disabled") === "true") return false;
+      const rect = element.getClientRects()[0];
+      if (!rect) return false;
+      return rect.width > 0 && rect.height > 0;
     };
 
     const triggerReactHandler = (selectorList: readonly string[]) => {
-      const element = selectorList.map((selector) => document.querySelector<HTMLElement>(selector)).find(Boolean);
+      const element = selectorList
+        .flatMap((selector) => Array.from(document.querySelectorAll<HTMLElement>(selector)))
+        .find(isClickable);
       if (!element) return;
       const reactKey = Object.keys(element).find((key) => key.startsWith("__reactProps$") || key.startsWith("__reactFiber$"));
       const reactValue = reactKey ? (element as unknown as Record<string, any>)[reactKey] : undefined;
@@ -36,6 +64,24 @@ export default defineContentScript({
       element.click();
     };
 
+    const currentEpisodeIsEnding = (): boolean => {
+      const video = document.querySelector<HTMLVideoElement>("video");
+      if (!video) return true;
+      const { duration, currentTime } = video;
+      if (!Number.isFinite(duration) || duration <= 0) return true;
+      return duration - currentTime <= END_OF_EPISODE_WINDOW_S;
+    };
+
+    /** Tentativa única: sem repetição, com trava e só no fim do episódio. */
+    const advanceOnce = (selectorList: readonly string[]) => {
+      const now = Date.now();
+      if (now < advanceLockedUntil) return;
+      if (!currentEpisodeIsEnding()) return;
+      advanceLockedUntil = now + ADVANCE_LOCK_MS;
+      triggerReactHandler(selectorList);
+    };
+
+    /** Repetição só faz sentido para despausar e para pular abertura. */
     const retry = (operation: () => void) => {
       operation();
       const interval = setInterval(operation, 500);
@@ -53,8 +99,8 @@ export default defineContentScript({
       });
     });
     document.addEventListener("continueWatchingEvent", () => retry(() => triggerReactHandler(selectors.continueWatching)));
-    document.addEventListener("nextEpEvent", () => retry(() => triggerReactHandler(selectors.nextEpisode)));
+    document.addEventListener("nextEpEvent", () => advanceOnce(selectors.nextEpisode));
     document.addEventListener("skipIntroEvent", () => retry(() => triggerReactHandler(selectors.skipIntro)));
-    document.addEventListener("watchCreditsEvent", () => retry(() => triggerReactHandler(selectors.watchCredits)));
+    document.addEventListener("watchCreditsEvent", () => advanceOnce(selectors.watchCredits));
   }
 });
