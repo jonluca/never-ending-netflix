@@ -6,7 +6,7 @@ export default defineConfig({
   manifest: ({ browser }) => ({
     name: "__MSG_manifest_name__",
     description: "__MSG_manifest_description__",
-    version: "3.0.0",
+    version: "3.0.1",
     default_locale: "en",
     homepage_url: "https://github.com/jonluca/Never-Ending-Netflix",
     permissions: ["storage"],
