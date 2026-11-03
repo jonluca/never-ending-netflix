@@ -3,58 +3,37 @@ import { NETFLIX_MATCHES } from "../netflix-matches";
 export default defineContentScript({
   matches: [...NETFLIX_MATCHES],
   world: "MAIN",
+  runAt: "document_start",
   main() {
-    const selectors = {
-      continueWatching: [
-        '[data-uia="interrupt-autoplay-continue"]',
-        ".interrupter-actions > .nf-icon-button:first-child",
-        '[aria-label^="Continue Playing"]'
-      ],
-      nextEpisode: [
-        ".WatchNext-autoplay",
-        ".WatchNext-still-hover-container",
-        '[aria-label^="Next episode"]',
-        '[data-uia^="next-episode-seamless-button"]',
-        ".draining"
-      ],
-      skipIntro: [
-        '[aria-label="Skip Intro"]',
-        '[data-uia="player-skip-intro"]',
-        ".skip-credits > a",
-        ".watch-video--skip-content > button"
-      ],
-      watchCredits: ['[aria-label^="Watch credits"]', '[data-uia^="watch-credits-seamless-button"]']
-    };
+    document.addEventListener("nen:activate", (event) => {
+      if (event.defaultPrevented || !(event.target instanceof HTMLElement)) return;
+      const element = event.target;
+      event.preventDefault();
 
-    const triggerReactHandler = (selectorList: readonly string[]) => {
-      const element = selectorList.map((selector) => document.querySelector<HTMLElement>(selector)).find(Boolean);
-      if (!element) return;
-      const reactKey = Object.keys(element).find((key) => key.startsWith("__reactProps$") || key.startsWith("__reactFiber$"));
-      const reactValue = reactKey ? (element as unknown as Record<string, any>)[reactKey] : undefined;
-      reactValue?.onPointerDown?.(new PointerEvent("pointerdown", { bubbles: true }));
-      reactValue?.memoizedProps?.onPointerDown?.(new PointerEvent("pointerdown", { bubbles: true }));
-      element.click();
-    };
-
-    const retry = (operation: () => void) => {
-      operation();
-      const interval = setInterval(operation, 500);
-      setTimeout(() => clearInterval(interval), 2_000);
-    };
-
-    document.addEventListener("playEvent", () => {
-      retry(() => {
-        const netflixWindow = window as unknown as {
-          netflix?: { appContext?: { state?: { playerApp?: { getAPI?: () => any } } } };
-        };
-        const api = netflixWindow.netflix?.appContext?.state?.playerApp?.getAPI?.();
-        const sessionId = api?.videoPlayer?.getAllPlayerSessionIds?.()[0];
-        api?.videoPlayer?.getVideoPlayerBySessionId?.(sessionId)?.play?.();
-      });
+      // Some Netflix controls use onPointerDown instead of onClick. Choose one
+      // native event, on the exact element selected by the isolated script. A
+      // click plus pointerdown, a second lookup, or a retry can skip an episode.
+      let usesPointerDown = false;
+      for (let node: HTMLElement | null = element; node; node = node.parentElement) {
+        const record = node as unknown as Record<string, unknown>;
+        const propsKey = Object.keys(node).find((key) => key.startsWith("__reactProps$"));
+        const fiberKey = Object.keys(node).find((key) => key.startsWith("__reactFiber$"));
+        const fiber = fiberKey ? record[fiberKey] as { memoizedProps?: unknown } | undefined : undefined;
+        const value = propsKey ? record[propsKey] : fiber?.memoizedProps;
+        if (!value || typeof value !== "object") continue;
+        const props = value as Record<string, unknown>;
+        if (typeof props.onPointerDown === "function" || typeof props.onPointerDownCapture === "function") {
+          usesPointerDown = true;
+          break;
+        }
+        // A target's own click handler takes precedence over an ancestor's pointer handler.
+        if (typeof props.onClick === "function" || typeof props.onClickCapture === "function") break;
+      }
+      if (usesPointerDown) {
+        element.dispatchEvent(new PointerEvent("pointerdown", { bubbles: true, cancelable: true, pointerType: "mouse", isPrimary: true, button: 0, buttons: 1 }));
+      } else {
+        element.click();
+      }
     });
-    document.addEventListener("continueWatchingEvent", () => retry(() => triggerReactHandler(selectors.continueWatching)));
-    document.addEventListener("nextEpEvent", () => retry(() => triggerReactHandler(selectors.nextEpisode)));
-    document.addEventListener("skipIntroEvent", () => retry(() => triggerReactHandler(selectors.skipIntro)));
-    document.addEventListener("watchCreditsEvent", () => retry(() => triggerReactHandler(selectors.watchCredits)));
   }
 });

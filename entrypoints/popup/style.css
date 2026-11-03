@@ -56,6 +56,15 @@ input[type="search"] {
   background: inherit;
 }
 
+[role="status"] {
+  margin: 10px 0 0;
+  font-size: 12px;
+}
+
+[role="status"]:empty {
+  display: none;
+}
+
 #results {
   display: grid;
   max-height: 180px;
